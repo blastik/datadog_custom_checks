@@ -1,0 +1,8 @@
+---
+init_config:
+
+instances:
+  - bucket: 'bucketname'
+    search_key: 'something/rootname'
+    # optional, in seconds the minimum time for this metric to be fetched
+    min_collection_interval: 60

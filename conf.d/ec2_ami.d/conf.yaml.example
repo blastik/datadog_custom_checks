@@ -1,0 +1,9 @@
+---
+init_config:
+
+instances:
+  - aws_region: 'eu-west-1'
+    # you can use wildcard, it will return the latest created always
+    ami_name: 'this-is-an-ami-name*'
+    # optional, in seconds the minimum time for this metric to be fetched
+    min_collection_interval: 60
